@@ -25,4 +25,10 @@ console.log(resultado);
     console.log("ejecutando funcion");
 })();
 
-//funciones como objetos//
+
+//funciones de tipo flecha//
+sumaFuncionFlecha = (a,b) => a+b;
+
+resultado = sumaFuncionFlecha(3,5);
+
+console.log("Resultado: "+resultado)
